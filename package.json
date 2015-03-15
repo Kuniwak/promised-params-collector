@@ -1,0 +1,19 @@
+{
+  "name": "promised-params-collector",
+  "version": "0.0.0",
+  "description": "Experimental implementation for serial promised parameters collectors",
+  "main": "spec.js",
+  "private": true,
+  "scripts": {
+    "test": "$(npm bin)/mocha spec.js"
+  },
+  "author": "kuniwak",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "q": "^1.2.0"
+  }
+}
